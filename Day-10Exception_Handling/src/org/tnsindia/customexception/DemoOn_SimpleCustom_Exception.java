@@ -5,6 +5,7 @@ package org.tnsindia.customexception;
 
 //Example on Custom Exception
 
+@SuppressWarnings("serial")
 class SimpleCustomException extends Exception
 {
 	public String str;
