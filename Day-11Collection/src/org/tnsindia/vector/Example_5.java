@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class Example_5 {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -21,7 +21,7 @@ public class Example_5 {
 
 		v.add(4);
 
-		@SuppressWarnings("rawtypes")
+	
 		Vector v_2nd = new Vector();
 
 		v_2nd.add(1);

@@ -12,7 +12,7 @@ public class Example_2 {
 		
 		MaxFinder_Demo obj=(a,b)->a>b?a:b;
 		
-				System.out.println("The maximum no.is: " +obj.max(25, 6));
+			obj.max(25, 6);
 
 	}
 

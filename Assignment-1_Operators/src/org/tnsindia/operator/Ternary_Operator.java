@@ -2,6 +2,7 @@ package org.tnsindia.operator;
 
 public class Ternary_Operator {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a=10,b=7;

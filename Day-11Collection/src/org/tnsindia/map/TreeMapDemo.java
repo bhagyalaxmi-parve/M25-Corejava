@@ -2,11 +2,12 @@ package org.tnsindia.map;
 
 import java.util.Map;
 import java.util.NavigableMap;
-import java.util.SortedMap;
+
 import java.util.TreeMap;
 
 public class TreeMapDemo {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		//SoredMap<String,String>obj = new SortedMap<>();
 		NavigableMap<String,String> obj = new TreeMap<>();

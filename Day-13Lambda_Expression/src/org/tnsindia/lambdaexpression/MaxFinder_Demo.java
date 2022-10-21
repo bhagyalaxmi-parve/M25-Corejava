@@ -7,8 +7,8 @@ public interface MaxFinder_Demo {
 	//bydefault=public abstract method
 	
 	//abstract method
-	//void max(int a, int b);
-	int max(int a, int b);
+     //void max(int a, int b);
+   int max(int a, int b);
 	
 }
 
