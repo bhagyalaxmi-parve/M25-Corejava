@@ -21,6 +21,7 @@ class ImplemwntableClass implements org.tnsindia.interfaceexample.OuterInterface
 	public void display() {
 		// TODO Auto-generated method stub
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the batch");
 		String str= s.nextLine();

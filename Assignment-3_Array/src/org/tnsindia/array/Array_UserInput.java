@@ -8,6 +8,7 @@ public class Array_UserInput {
 		// TODO Auto-generated method stub
 		
 		
+		@SuppressWarnings("resource")
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the size of the array");
 		int size=s.nextInt();
